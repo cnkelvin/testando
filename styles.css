@@ -50,21 +50,21 @@ body {
   left: 260px;
 }
 
-.img-item.fruit img {
+.img-item.hearts img {
   transform: rotate(-90deg) translateY(-30%);
   scale: 0;
   transition: 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
-  animation: float-fruit 4s ease-in-out infinite;
+  animation: float-hearts 4s ease-in-out infinite;
   position: relative;
   left: 170px;
 }
 
-.img-item.fruit.active img {
+.img-item.hearts.active img {
   scale: 1;
   transition-delay: 0.1s;
 }
 
-@keyframes float-fruit {
+@keyframes float-hearts {
   0% {
     translate: 0;
   }
@@ -182,17 +182,5 @@ body {
 }
 
 .bg-box .bg:nth-child(1) {
-  background: #e9a5b2;
-}
-
-.bg-box .bg:nth-child(2) {
-  background: #df9e7d;
-}
-
-.bg-box .bg:nth-child(3) {
-  background: #6cc680;
-}
-
-.bg-box .bg:nth-child(4) {
   background: #e9a5b2;
 }
